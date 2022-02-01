@@ -1,0 +1,16 @@
+version: "3.2"
+
+services:
+  verdeelstation:
+    build:
+      context: .
+      dockerfile: VerdeelStation/Dockerfile
+    ports:
+      - 4501:80
+  nginx:
+    build:
+      context: .
+      dockerfile: nginx/Dockerfile
+    ports:
+      - 4500:80
+

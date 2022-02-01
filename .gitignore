@@ -1,0 +1,17 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+NuGet.Config
+*.DotSettings.user
+coverage.cobertura.xml
+*test-result.xml
+appsettings.Development.json
+*.db
+*.DotSettings
+launchSettings.json
+*.csproj.user
+.vs
+.idea/
+.DS_Store
